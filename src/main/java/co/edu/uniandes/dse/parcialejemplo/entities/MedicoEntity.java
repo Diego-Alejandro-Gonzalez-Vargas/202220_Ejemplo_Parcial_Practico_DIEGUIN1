@@ -26,10 +26,10 @@ import uk.co.jemos.podam.common.PodamStrategyValue;
 @Setter
 @Entity
 
-public class MedicoEntity {
+public class MedicoEntity extends BaseEntity{
     private String nombre;
     private String apellido;
-    private Integer registromedico;
+    private String registromedico;
 
     @PodamExclude
 	@ManyToMany

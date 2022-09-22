@@ -26,7 +26,7 @@ import uk.co.jemos.podam.common.PodamStrategyValue;
 @Setter
 @Entity
 
-public class EspecialidadEntity {
+public class EspecialidadEntity extends BaseEntity {
 
     private String nombre;
     private String descripcion;
